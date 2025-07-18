@@ -2,7 +2,7 @@
 
 > **Modern, responsive website for SeasonsMC Minecraft server network featuring real-time statistics, custom game modes showcase, and professional server store integration.**
 
-[![Live Website](https://img.shields.io/badge/🌐_Live-seasonsmc.store-brightgreen?style=for-the-badge)](https://seasonsmc.store)
+[![Live Website](https://img.shields.io/badge/🌐_Live-seasonsmc.store-brightgreen?style=for-the-badge)](https://play.seasonsmc.store)
 [![Server Status](https://img.shields.io/badge/🎮_Server-Online-success?style=for-the-badge)](https://seasonsmc.store)
 [![Discord](https://img.shields.io/badge/💬_Discord-Join_Now-7289da?style=for-the-badge&logo=discord)](https://discord.gg/gF3rENxuGq)
 
