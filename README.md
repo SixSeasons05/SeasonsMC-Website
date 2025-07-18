@@ -4,7 +4,7 @@
 
 [![Live Website](https://img.shields.io/badge/🌐_Live-seasonsmc.store-brightgreen?style=for-the-badge)](https://seasonsmc.store)
 [![Server Status](https://img.shields.io/badge/🎮_Server-Online-success?style=for-the-badge)](https://seasonsmc.store)
-[![Discord](https://img.shields.io/badge/💬_Discord-Join_Now-7289da?style=for-the-badge&logo=discord)](https://discord.gg/seasonsmc)
+[![Discord](https://img.shields.io/badge/💬_Discord-Join_Now-7289da?style=for-the-badge&logo=discord)](https://discord.gg/gF3rENxuGq)
 
 ---
 
