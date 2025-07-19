@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html class="dark" dir="ltr" lang="en">
+    <head>
+        <title>SeasonsMC Offical Site • Vote</title>
+         <meta content="SeasonsMC Offical Site • Home" name="title"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <link href="../images/logo.jpg" rel="shortcut icon" type="image/jpg"/>
+        <link crossorigin="anonymous" href="../css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" rel="stylesheet"/>
+        <link href="../css/style.css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/e476a00222.js" crossorigin="anonymous"></script>
+        <link as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-theme navbar-double navbar-top-new">
+            <div class="container">
+                <button class="navbar-toggler nav-link" type="button"><i class="fa-regular fa-bars-filter"></i> Menu</button>
+                <div class="status-icon" onclick="copyToClipboard('#ip')">
+                    <svg class="creeper" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4,2H20A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4A2,2 0 0,1 4,2M6,6V10H10V12H8V18H10V16H14V18H16V12H14V10H18V6H14V10H10V6H6Z"></path>
+                    </svg>
+                </div>
+                <a href="vote.html" target="_blank">
+                    <div class="discord-icon">
+                        <svg class="discord" viewbox="0 0 245 240" xmlns="http://www.w3.org/2000/svg">
+                            <path class="st0" d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"></path>
+                            <path class="st0" d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"></path>
+                        </svg>
+                    </div>
+                </a>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html"> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-active" href="vote.html"> Vote</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="color-overlay">
+            <div class="header" id="header-pjs" style="opacity: 0.6; z-index: 10"></div>
+        </div>
+        <div class="logo-ds-flex">
+            <div class="status-box-container">
+                <div class="status-text" onclick="copyToClipboard('#ip')">
+                    <div class="text">
+                        <div class="top-text"><span class="server-status">Join our Server!</span></div>
+                        <div class="bottom-text">
+                            <div class="reel-1"><span id="ip">play.seasonsmc.com</span></div>
+                            <div class="reel-1">Click to copy IP</div>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="icon-wrapper">
+                            <svg class="creeper" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4,2H20A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4A2,2 0 0,1 4,2M6,6V10H10V12H8V18H10V16H14V18H16V12H14V10H18V6H14V10H10V6H6Z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-container">
+                <a href="../index.html" id="logo-link">
+                <img alt="SeasonsMC" class="logo animated-logo" src="../images/seasons_mc.png"/>
+                </a>
+            </div>
+            <div class="discord-box-container">
+                <a href="discord.gg/mhutsErfQ8" target="_blank">
+                    <div class="discord-text">
+                        <div class="icon">
+                            <div class="icon-wrapper">
+                                <svg class="discord" viewbox="0 0 245 240" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="st0" d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"></path>
+                                    <path class="st0" d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <div class="top-text"><span class="discord-status">Join Our Discord!</span></div>
+                            <div class="bottom-text">
+                                <div class="reel-1">discord.gg/mhutsErfQ8</div>
+                                <div class="reel-1">Click to join</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="coldfire-navbar-menu">
+            <div class="nav-header">
+                <div class="nav-header-text theme-text">SeasonsMC</div>
+                <div class="nav-header-close btn btn-secondary ml-4" id="nav-header-close"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-active" href=".html">
+                    Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vote.html">
+                    Vote</a>
+                </li>
+                <div class="divider"></div>
+                <li class="nav-item">
+                    <a class="nav-link bottom-nav" href="../index.html" target="_blank">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bottom-nav" href="terms.html">Terms</a>
+                </li>
+            </ul>
+        </div>
+        <div class="overlay"></div>
+        <div class="container top-container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="card mb-2 welcome-card">
+                        <div class="card-body">
+                            <div class="welcome-card-flex">
+                                <div class="welcome-av-col">
+                                    <img alt="Avatar" class="welcome-avatar" height="160px" src="../images/skin-body.png" width="auto"/>
+                                </div>
+                                <div class="welcome-text-col">
+                                    <span class="welcome-text-col">Welcome to SeasonsMC!</span><br/>
+                                    <span class="welcome-text">We are always stocked with amazing ranks, cosmetics, and boosters!</span><br/>
+                                </div>
+                                <div class="welcome-lr-col">
+                                    <a class="btn btn-theme" href="store.html" target="_blank">Boosters</a>
+                                    <a class="btn btn-theme" href="store.html" target="_blank">Ranks</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <a href="store.html" target="_blank">
+                        <div class="store-box mb-2">
+                            <div class="store-title">Store</div>
+                            <div class="store-icon"><i class="fas fa-shopping-basket"></i></div>
+                            <div class="store-subtitle">Shop now!</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="alert alert-danger" id="ie-message">
+                IE not supported
+            </div>
+            <div class="chatbox mb-3" id="chatbox-top"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="card">
+                        <div class="card-header header-theme">Vote</div>
+                        <div class="card-body pb-0">
+                            <div class="reward-box">
+                                <div class="reward-icon">
+                                    <img alt="Vote Reward Icon" src="../images/coinbooster.png"style="border-radius: 10px !important;"/>
+                                </div>
+                                <div class="reward-text">Vote daily for our server in return for a vote key and 100 ingame coins!</div>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-6 mb-4">
+                                    <a class="btn btn-block btn-theme vote-btn d-flex" href="../index.html" rel="noopener nofollow" role="button" target="_blank">
+                                        <div class="align-self-center">MinecraftServers.org</div>
+                                        <div class="vote-icon ml-4"><i class="fa-solid fa-up-right-from-square"></i></div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <a class="btn btn-block btn-theme vote-btn d-flex" href="../index.html" rel="noopener nofollow" role="button" target="_blank">
+                                        <div class="align-self-center">Best-Minecraft-Servers.co</div>
+                                        <div class="vote-icon ml-4"><i class="fa-solid fa-up-right-from-square"></i></div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <a class="btn btn-block btn-theme vote-btn d-flex" href="../index.html" rel="noopener nofollow" role="button" target="_blank">
+                                        <div class="align-self-center">Minecraft.buzz</div>
+                                        <div class="vote-icon ml-4"><i class="fa-solid fa-up-right-from-square"></i></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card widget-card">
+                        <div class="card-header header-theme widget-header">
+                            <div class="widget-header-txt">Server Status</div>
+                            <div class="status-badge">
+                                <span class="badge badge-success" style="background-color: rgb(9, 255, 0);">Online!</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            Online: <strong>In / Dev</strong><br/>
+                            IP: <strong>play.seasonsmc.com</strong><br/>
+                            Version: Java 1.21.5<br/>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header header-theme">Latest News</div>
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="latest-news-image"><img src="../images/logo.jpg"/></div>
+                                <div class="ml-3 flex-grow-1">
+                                    <div class="latest-news-name">Welcome to SeasonsMC!</div>
+                                    <div class="latest-news-date">Jul 18th, 2025</div>
+                                    <div class="latest-news-readtime">Fun Events!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="chatbox" id="chatbox-bottom"></div>
+        </div>
+        <div class="footer-spacer"></div>
+        <div class="footer large-footer">
+            <div class="top-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 footer-col footer-about">
+                            <div class="footer-text-header">Play Now!</div>
+                            <p>Join up on our amazing SeasonsMC server now with multiple gamemodes and events!</p>
+                            <button class="btn btn-play" data-toggle="tooltip" onclick="copyToClipboard('#play-ip')" title="Click to copy"><span id="play-ip">play.seasonsmc.com</span> <i class="fa-solid fa-angles-right"></i></button>
+                        </div>
+                        <div class="col-lg-4 footer-col">
+                            <div class="footer-text-header">Links</div>
+                            <a class="footer-link terms-link" href="terms.html">Terms and Conditions</a>
+                            <a class="footer-link privacy-policy-link" href="terms.html">Privacy Policy</a>
+                            <a class="footer-link" href="terms.html">Cookie Notice</a>
+                        </div>
+                        <div class="col-lg-4 footer-col">
+                            <div class="footer-text-header">Store</div>
+                            <p>Check out our store to purchase ranks, cosmetics, and boosters!</p>
+                            <a class="btn btn-theme other-btn" href="store.html" target="_blank">Shop Now <i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <div class="container">
+                    <div class="footer-copyright">
+                        <span class="copyright-txt"><i class="fa-solid fa-copyright"></i> 2025 <span class="site">SeasonsMC</span></span>
+                        <span style="font-size: 10px; display: inline-block;">SeasonsMC Minecraft Store is not in any way affiliated with Mojang AB.</span>
+                    </div>
+                    <img alt="Coldfire Design" class="credit-img" src="../images/coldire.png" title=" Thanks coldfire for inspiring the design "/>
+                </div>
+            </div>
+        </div>
+        <script src="../js/dist-jquery.min.js" type="text/javascript"></script>
+        <script src="../js/js-spoiler.js" type="text/javascript"></script>
+        <script src="../js/jquery.cookie-jquery.cookie.js" type="text/javascript"></script>
+        <script crossorigin="anonymous" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" src="../js/js-bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var swal_server_copy = "Now go join the server!";
+        </script>
+        <script src="../js/js-cookieconsent.min.js" type="text/javascript"></script>
+        <script type="text/javascript">if (window.cookieconsent === undefined) {
+            console.warn('Failed to initialise cookie consent, it may be blocked by your browser or a browser extension');
+            } else {
+            window.cookieconsent.initialise({
+              onStatusChange: function() {
+                window.location.reload();
+              },
+              "position": "bottom-right",
+              "type": "opt-in",
+              "palette": {
+                  "button": {
+                      "background": "transparent",
+                      "text": "#f1d600",
+                      "border": "#f1d600"
+                  },
+                  "popup": {
+                      "background": "#000",
+                      "text": "#000"
+                  }
+              },
+              "content": {
+                  "policy": "Cookies",
+                  "message": "This website uses cookies to enhance your browsing experience.",
+                  "deny": "Disallow cookies",
+                  "allow": "Allow cookies",
+                  "link": "More info",
+                  "href": "\/cookies\/"
+              }
+            });
+            }
+        </script>
+        <script src="../js/core-core.js" type="text/javascript"></script>
+        <script src="../js/core-user.js" type="text/javascript"></script>
+        <script src="../js/core-pages.js" type="text/javascript"></script>
+        <script integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw" src="../js/5.1.0" type="module"></script>
+    </body>
+</html>
